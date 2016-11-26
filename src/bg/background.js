@@ -3,7 +3,7 @@ chrome.contextMenus.create({
   'contexts': ['selection'],
   'onclick': (e) => {
     const selectedText = e.selectionText
-    const url = 'https://www.google.fi/maps?q=' + encodeURIComponent(selectedText) + '&um=1&ie=UTF-8&sa=X'
+    const url = 'https://www.google.com/maps?q=' + encodeURIComponent(selectedText) + '&um=1&ie=UTF-8&sa=X'
     window.open(url)
   }
 });
