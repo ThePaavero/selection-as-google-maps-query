@@ -6,4 +6,4 @@ chrome.contextMenus.create({
     const url = 'https://www.google.com/maps?q=' + encodeURIComponent(selectedText) + '&um=1&ie=UTF-8&sa=X'
     window.open(url)
   }
-});
+})
